@@ -47,7 +47,9 @@ var multipleAdd =  function(array){
             if( num2 === 0) {
                 console.log("not supported!");
             }
-            console.log("Quotient  : " +  div(num1,num2));
+            else{
+                console.log("Quotient  : " +  div(num1,num2));
+            }
 
         }
         else{
